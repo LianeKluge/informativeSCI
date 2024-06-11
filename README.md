@@ -1,8 +1,11 @@
 # informativeSCIproject
 
-
-
 ## Getting started
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/LianeKluge/informativeSCI/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/LianeKluge/informativeSCI/actions/workflows/R-CMD-check.yaml)
+<!-- badges: end -->
+
 
 To make it easy for you to get started with GitLab, here's a list of recommended next steps.
 
