@@ -1,0 +1,24 @@
+Type: Package
+Package: informativeSCI
+Title: Informative Simultaneous Confidencde Intervals
+Version: 1.0.0
+Authors@R: c(
+    person("Kluge", "Liane", , "liane@uni-bremen.de", role = c("aut", "cre")),
+    person("Brannath", "Werner", role = "ctb"),
+    person("Scharpenberg", "Martin", role = "ctb")
+  )
+Author: Liane Kluge [aut, cre], Werner Brannath [ctb], Martin Scharpenberg
+    [ctb]
+Maintainer: Liane Kluge <liane@uni-bremen.de>
+Description: Calculation of informative simultaneous confidencde intervals
+    for graphical tests and exploration of the information weight.
+License: MIT + file LICENSE
+Depends:
+    gMCP (>= 0.8-17)
+Imports: 
+    mvtnorm (>= 1.2-4)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+SystemRequirements: Java (>= 5.0),
