@@ -9,12 +9,12 @@
 Calculation of informative simultaneous confidencde intervals for graphical tests and exploration of the information weight.
 }
 \details{
-The main function of the package is the `informSCI`-function for
+The main function of the package is the \link{informSCI}-function for
 calculating informative lower simultaneous confidence bounds for a given
 graphical test procedure and given information weights. The
-`explore_q`-function can help to find the right information weights
-for the \link{informSCI}-algorithm. The `inExactSCI`- and
-`notInExactSCI`-functions can help to determine how accurate a
+\link{explore_q}-function can help to find the right information weights
+for the \link{informSCI}-algorithm. The \link{inExactSCI}- and
+\link{notInExactSCI}-functions can help to determine how accurate a
 (numerical) approximation of the true informative lower SCI-bounds is.
 }
 \references{
