@@ -2,11 +2,6 @@ Type: Package
 Package: informativeSCI
 Title: Informative Simultaneous Confidencde Intervals
 Version: 1.0.0
-Authors@R: c(
-    person("Kluge", "Liane", , "liane@uni-bremen.de", role = c("aut", "cre")),
-    person("Brannath", "Werner", role = "ctb"),
-    person("Scharpenberg", "Martin", role = "ctb")
-  )
 Author: Liane Kluge [aut, cre], Werner Brannath [ctb], Martin Scharpenberg
     [ctb]
 Maintainer: Liane Kluge <liane@uni-bremen.de>
