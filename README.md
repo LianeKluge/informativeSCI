@@ -94,3 +94,20 @@ For open source projects, say how it is licensed.
 
 ## Project status
 If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+
+### References
+* F. Bretz, W. Maurer, W. Brannath, M. Posch: A graphical approach
+to sequentially rejective multiple test procedures. Statistics in Medicine
+28.4 (2009), pp. 586-604.
+
+* K. Strassburger, F. Bretz: Compatible simultaneous lower confidence bounds
+for the Holm procedure and other Bonferroni based closed tests. Statistics
+in Medicine 27.4 (2008), pp. 4914-4927.
+
+* W. Brannath, L. Kluge, M. Scharpenberg: Informative Simultaneous Confidence 
+Intervals for Graphical Test Procedures. arXiv preprint arXiv:2402.13719 (2024).
+
+* S. Schmidt, W. Brannath: Informative Simultaneous Confidence Intervals
+in Hierarchical Testing. Methods of Information in Medicine 53.4 (2014),
+pp. 278–283.
+
