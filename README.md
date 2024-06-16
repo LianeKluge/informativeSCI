@@ -29,6 +29,7 @@ graphical test procedure and given information weights. The
 for the `informSCI`-algorithm. The `inExactSCI`- and
 `notInExactSCI`-functions can help to determine how accurate a
 (numerical) approximation of the true informative lower SCI-bounds is. 
+For examples, see the Example sections of the documentation pages. 
 
 
 ### References
