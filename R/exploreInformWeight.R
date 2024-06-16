@@ -498,7 +498,7 @@ explore_q <- function(gMCP = NULL, g = NULL, weights = NULL, trueParam,
 #' @param checkInput A boolean specifying whether the entered values should be 
 #' checked.
 #'
-#' @return Return covariance matrix.
+#' @return Returns covariance matrix.
 #' @export
 #'
 #' @examples sigmaManyToOne(sampleSizes=c(89,95), sampleSizeControl=77,

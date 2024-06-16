@@ -1,11 +1,11 @@
 Type: Package
 Package: informativeSCI
-Title: Informative Simultaneous Confidencde Intervals
+Title: Informative Simultaneous Confidence Intervals
 Version: 1.0.0
 Author: Liane Kluge [aut, cre], Werner Brannath [ctb], Martin Scharpenberg
     [ctb]
 Maintainer: Liane Kluge <liane@uni-bremen.de>
-Description: Calculation of informative simultaneous confidencde intervals
+Description: Calculation of informative simultaneous confidence intervals
     for graphical tests and exploration of the information weight.
 License: MIT + file LICENSE
 URL: https://github.com/LianeKluge/informativeSCI
