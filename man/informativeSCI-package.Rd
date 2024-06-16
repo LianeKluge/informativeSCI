@@ -4,9 +4,9 @@
 \name{informativeSCI-package}
 \alias{informativeSCI}
 \alias{informativeSCI-package}
-\title{informativeSCI: Informative Simultaneous Confidencde Intervals}
+\title{informativeSCI: Informative Simultaneous Confidence Intervals}
 \description{
-Calculation of informative simultaneous confidencde intervals for graphical tests and exploration of the information weight.
+Calculation of informative simultaneous confidence intervals for graphical tests and exploration of the information weight.
 }
 \details{
 The main function of the package is the \link{informSCI}-function for

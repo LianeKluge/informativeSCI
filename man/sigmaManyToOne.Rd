@@ -20,7 +20,7 @@ observations.}
 checked.}
 }
 \value{
-Return covariance matrix.
+Returns covariance matrix.
 }
 \description{
 The function calculates the covariance matrix for many-to-one-comparisons.
