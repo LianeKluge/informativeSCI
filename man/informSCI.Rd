@@ -212,6 +212,9 @@ K. Strassburger, F. Bretz: Compatible simultaneous lower confidence bounds
 for the Holm procedure and other Bonferroni based closed tests. Statistics
 in Medicine 27.4 (2008), pp. 4914-4927.
 
+W. Brannath, L. Kluge, M. Scharpenberg: Informative Simultaneous Confidence 
+Intervals for Graphical Test Procedures. arXiv preprint arXiv:2402.13719 (2024).
+
 S. Schmidt, W. Brannath: Informative Simultaneous Confidence Intervals
 in Hierarchical Testing. Methods of Information in Medicine 53.4 (2014),
 pp. 278–283.

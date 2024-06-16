@@ -260,6 +260,9 @@ numSim=100, sampleSizes=c(89,95), sampleSizeControl=77, varObs=10)
 
 }
 \references{
+W. Brannath, L. Kluge, M. Scharpenberg: Informative Simultaneous Confidence 
+Intervals for Graphical Test Procedures. arXiv preprint arXiv:2402.13719 (2024).
+
 S. Schmidt, W. Brannath: Informative simultaneous confidence intervals
 for the fallback procedure. Biometrical Journal 57.4 (2015), pp. 712–719.
 }
