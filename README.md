@@ -22,12 +22,12 @@ install_github("LianeKluge/informativeSCI")
 Otherwise just use the current version from CRAN.
 
 ## Usage
-The main function of the package is the \link{informSCI}-function for
+The main function of the package is the `informSCI`-function for
 calculating informative lower simultaneous confidence bounds for a given
 graphical test procedure and given information weights. The
-\link{explore_q}-function can help to find the right information weights
-for the \link{informSCI}-algorithm. The \link{inExactSCI}- and
-\link{notInExactSCI}-functions can help to determine how accurate a
+`explore_q`-function can help to find the right information weights
+for the `informSCI`-algorithm. The `inExactSCI`- and
+`notInExactSCI`-functions can help to determine how accurate a
 (numerical) approximation of the true informative lower SCI-bounds is. 
 
 
