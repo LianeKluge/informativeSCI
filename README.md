@@ -10,14 +10,18 @@ L. Kluge, W. Brannath and M. Scharpenberg
 informativeSCI can be used for calculating informative lower simultaneous 
 confidence bounds for a given graphical test procedure and given information 
 weights. Furthermore, it can help to find the right information weights for the
-informative lower simultaneous confidence bounds.
+bounds.
 
 ## Installation
+You can install the development version from GitHub by running
 ```R
 install.packages("devtools")
 library(devtools)
 install_github("LianeKluge/informativeSCI")
 ```
+Otherwise just use the current version from CRAN.
+
+## Usage
 
 
 
