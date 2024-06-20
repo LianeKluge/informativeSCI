@@ -5,7 +5,7 @@ Version: 1.0.1
 Authors@R: c(
     person("Liane", "Kluge", , "liane@uni-bremen.de", role = c("aut", "cre")),
     person("Werner", "Brannath", role = "ctb"),
-    person("Martin", role = "ctb")
+    person("Martin", "Scharpenberg", role = "ctb")
   )
 Maintainer: Liane Kluge <liane@uni-bremen.de>
 Description: Calculation of informative simultaneous confidence intervals
