@@ -1,7 +1,7 @@
 Type: Package
 Package: informativeSCI
 Title: Informative Simultaneous Confidence Intervals
-Version: 1.0.1
+Version: 1.0.2
 Authors@R: c(
     person("Liane", "Kluge", , "liane@uni-bremen.de", role = c("aut", "cre")),
     person("Werner", "Brannath", role = "ctb"),
