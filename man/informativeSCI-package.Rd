@@ -6,7 +6,7 @@
 \alias{informativeSCI-package}
 \title{informativeSCI: Informative Simultaneous Confidence Intervals}
 \description{
-Calculation of informative simultaneous confidence intervals for graphical described multiple test procedures and given information weights. Bretz et al. (2009) \doi{10.1002/sim.3495} and Brannath et al. (2024) \href{https://arxiv.org/abs/2402.13719}{arXiv:2402.13719}. Furthermore, exploration of the behavior of the informative bounds in dependence of the information weights. Comparisons with compatible bounds are possible. Strassburger and Bretz (2008) \doi{10.1002/sim.3338}.
+Calculation of informative simultaneous confidence intervals for graphical described multiple test procedures and given information weights. Bretz et al. (2009) \doi{10.1002/sim.3495} and Brannath et al. (2024) \doi{10.48550/arXiv.2402.13719}. Furthermore, exploration of the behavior of the informative bounds in dependence of the information weights. Comparisons with compatible bounds are possible. Strassburger and Bretz (2008) \doi{10.1002/sim.3338}.
 }
 \details{
 The main function of the package is the \link{informSCI}-function for
@@ -43,7 +43,7 @@ Useful links:
 Other contributors:
 \itemize{
   \item Werner Brannath [contributor]
-  \item Martin [contributor]
+  \item Martin Scharpenberg [contributor]
 }
 
 }
