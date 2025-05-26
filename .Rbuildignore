@@ -4,3 +4,9 @@
 ^cran-comments\.md$
 ^revdep$
 ^CRAN-SUBMISSION$
+^\.Rhistory$
+^\.RData$
+^\.Ruserdata$
+^\.git$
+^\.gitignore$
+^README\.Rmd$
