@@ -335,10 +335,13 @@ funcBisec <- function(f_1, f_2, a, b, maxIter = 1000, tol = 1/10^3){
   f <- function(x){f_1(x)-f_2(x)}
   f.a <- f(a)
   f.b <- f(b)
-  if(f.a > 0 || f.b < 0 ){ 
+  if(f.a > 0){ 
     stop("Bisection cannot be executed! The function value f_1(a) must be less
-         than or equal to f_2(a) and f_1(b) must be greater than or equal
-         to f_2(b)!") 
+         than or equal to f_2(a)!") 
+  }
+  if(f.b < 0 ){ 
+    stop("Bisection cannot be executed! The function value f_1(b) must be
+    greater than or equal to f_2(b)!") 
   }
   if(f.a == 0){
     return(a)
