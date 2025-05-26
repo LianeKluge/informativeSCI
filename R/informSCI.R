@@ -281,7 +281,8 @@ inversePValueZTest <- function(estimates, SE, gamma){
 
 informWeight_adapted <- function(mu, mu_0 , q, trWeights.rowsums){
   greaterZero <- as.integer(mu > mu_0) * as.integer(q > 0) 
-  return((1 - (1-q^{mu-mu_0}) * trWeights.rowsums) * greaterZero)
+  return((1 - trWeights.rowsums +  q^{mu-mu_0}*trWeights.rowsums) * greaterZero)
+  #return equals return((1 - (1-q^{mu-mu_0}) * trWeights.rowsums) * greaterZero)
 }
 
 ###############################################################################
