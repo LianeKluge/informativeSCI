@@ -1,5 +1,4 @@
-# informativeSCI (development version)
+# informativeSCI 1.0.4
 
-# informativeSCI 1.0.0
-
-* Initial CRAN submission.
+* Added a `NEWS.md` file to track changes to the package.
+* some numerical stabilisations were added
