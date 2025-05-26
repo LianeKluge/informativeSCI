@@ -412,7 +412,7 @@ weightsGTP <- function(mu, g, weights, alpha, q, mu_0){
     return(weights * alpha) 
     
   }else if(numOfPosMu == 1){
-    i.p <- indices.pos[1] # single index for which mu[i]>mu_0[i] is true
+    i.p <- indices.pos[1] # single index for which mu[i] > mu_0[i] is true
     eta.mu <- numeric(m)
     alpha_posInd <- weights[i.p] * alpha 
     eta.mu[i.p] <- alpha_posInd * q.eqZeroIndicator[i.p] 
