@@ -42,6 +42,10 @@ arXiv:2402.13719 (2024). F. Bretz, W. Maurer, W. Brannath, M. Posch: A
 graphical approach to sequentially rejective multiple test procedures.
 Statistics in Medicine 28.4 (2009), pp. 586-604.
 
+F. Bretz, W. Maurer, W. Brannath, M. Posch: A graphical approach to
+sequentially rejective multiple test procedures. Statistics in Medicine
+28.4 (2009), pp. 586-604.
+
 K. Strassburger, F. Bretz: Compatible simultaneous lower confidence
 bounds for the Holm procedure and other Bonferroni based closed tests.
 Statistics in Medicine 27.4 (2008), pp. 4914-4927.
