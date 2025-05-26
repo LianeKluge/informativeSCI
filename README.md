@@ -36,11 +36,11 @@ see the Example sections of the documentation pages.
 
 ## References
 
-@references W. Brannath, L. Kluge, M. Scharpenberg: Informative
-Simultaneous Confidence Intervals for Graphical Test Procedures. arXiv
-preprint arXiv:2402.13719 (2024). F. Bretz, W. Maurer, W. Brannath, M.
-Posch: A graphical approach to sequentially rejective multiple test
-procedures. Statistics in Medicine 28.4 (2009), pp. 586-604.
+W. Brannath, L. Kluge, M. Scharpenberg: Informative Simultaneous
+Confidence Intervals for Graphical Test Procedures. arXiv preprint
+arXiv:2402.13719 (2024). F. Bretz, W. Maurer, W. Brannath, M. Posch: A
+graphical approach to sequentially rejective multiple test procedures.
+Statistics in Medicine 28.4 (2009), pp. 586-604.
 
 K. Strassburger, F. Bretz: Compatible simultaneous lower confidence
 bounds for the Holm procedure and other Bonferroni based closed tests.

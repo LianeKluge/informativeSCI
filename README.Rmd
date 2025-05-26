@@ -36,7 +36,7 @@ Otherwise just use the current version from CRAN.
 The main function of the package is the \code{\link{informSCI}}-function for calculating informative lower simultaneous confidence bounds for a given graphical test procedure and given information weights. The \code{\link{explore_q}}-function can help to find the right information weights for the \code{\link{informSCI}}-algorithm. The \code{\link{inExactSCI}}- and \code{\link{notInExactSCI}}-functions can help to determine how accurate a (numerical) approximation of the true informative lower SCI-bounds is. For examples, see the Example sections of the documentation pages.
 
 ## References
-@references
+
 W. Brannath, L. Kluge, M. Scharpenberg: Informative Simultaneous Confidence Intervals for Graphical Test Procedures. arXiv preprint arXiv:2402.13719 (2024).
 F. Bretz, W. Maurer, W. Brannath, M. Posch: A graphical approach
 to sequentially rejective multiple test procedures. Statistics in Medicine
