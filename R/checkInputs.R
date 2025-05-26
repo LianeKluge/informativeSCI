@@ -35,6 +35,9 @@ checkPartOfInput1 <- function(gMCP, g, weights, mu_0, alpha){
     if(any(g < 0)){
       stop("The transition weights must be non-negative!")
     }
+    if(any(diag(g)>0)){
+      stop("No transition weight should be wasted. Set all g[i,i]==0")
+    }
     for(i in 1:dim(g)[1]){
       if(sum(g[i, ]) > 1){
         stop("The sum of the transition weights of each hypothesis must not
@@ -52,6 +55,10 @@ checkPartOfInput1 <- function(gMCP, g, weights, mu_0, alpha){
       stop("The graph must contain at least one hypothesis") 
     }
   }else{
+    g <- getMatrix(gMCP)
+    if(any(diag(g)>0)){
+      stop("No transition weight should be wasted. Set all g[i,i]==0")
+    }
     m <- length(getWeights(gMCP))
   }
   if(!(length(mu_0) == 1 || length(mu_0) == m)){

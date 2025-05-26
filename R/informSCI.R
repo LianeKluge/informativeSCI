@@ -456,14 +456,20 @@ weightsGTP <- function(mu, g, weights, alpha, q, mu_0){
         
         for(j in (l+1):numOfPosMu){ # only the transition weights between 
           # non-rejected hypotheses need to be updated 
+          
+          # for scaling of update rule of transition weights:
+          informWeightAdp <- informWeight_adapted(mu, mu_0 , q, rowSums(g))
+          scaleFactorP1 <- sum(g.mu[j,(l+1):m])+(sum(g.mu[l,(l+1):m])-g.mu[l,j])*g.mu[j,l]
+          scaleFactorP2 <- sum(g.mu[j,(m+1):(m+j)]*informWeightAdp[indices.pos[1:j]])+ sum(g.mu[l,(m+1):(m+j)]*informWeightAdp[indices.pos[1:j]])*g.mu[j,l]
+          scaleFactor <- scaleFactorP1 + scaleFactorP2
+          
           for(k in (l+1):(m+j)){ # for m+j+1 <= k <= m+numOfPosMu the
             # transition weights remain 0. Thus no update is necessary
             
-            if(g.mu[j,l] * g.mu[l,j] == 1 || j == k){
+            if(j == k){
               g.mu[j,k] <- 0
             }else{
-              g.mu[j,k] <- (g.mu[j,k] + g.mu[j,l] * g.mu[l,k])/
-                (1 - g.mu[j,l] * g.mu[l,j])
+              g.mu[j,k] <- (g.mu[j,k] + g.mu[j,l] * g.mu[l,k])/max(scaleFactor,10^{-300})
             } 
           }
         }
@@ -474,7 +480,7 @@ weightsGTP <- function(mu, g, weights, alpha, q, mu_0){
     eta.mu <-eta.mu[order(c(indices.nonpos,indices.pos))] # rearrange the 
     # entries of the vector into the original arrangement
     
-    # eta.mu gives alpha^{mu}/q^{max(0,mu-mu_0)} or
+    # reta.mu gives alpha^{mu}/q^{max(0,mu-mu_0)} or
     # alpha^{mu}/informWeight_adapted(mu, mu_0 , q, rowSums(g)) where alpha^{mu}
     # is defined as in the underlying paper. If q[i] == 0 and mu[i]< mu_0[i] it
     # holds eta.mu[i] = alpha_i^{mu}. If q[i] == 0 and mu[i]>=mu_0[i] it holds 
