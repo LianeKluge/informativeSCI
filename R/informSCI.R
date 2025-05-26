@@ -474,7 +474,7 @@ weightsGTP <- function(mu, g, weights, alpha, q, mu_0){
     eta.mu <-eta.mu[order(c(indices.nonpos,indices.pos))] # rearrange the 
     # entries of the vector into the original arrangement
     
-    #eta.mu gives alpha^{mu}/q^{max(0,mu-mu_0)} or
+    # eta.mu gives alpha^{mu}/q^{max(0,mu-mu_0)} or
     # alpha^{mu}/informWeight_adapted(mu, mu_0 , q, rowSums(g)) where alpha^{mu}
     # is defined as in the underlying paper. If q[i] == 0 and mu[i]< mu_0[i] it
     # holds eta.mu[i] = alpha_i^{mu}. If q[i] == 0 and mu[i]>=mu_0[i] it holds 
