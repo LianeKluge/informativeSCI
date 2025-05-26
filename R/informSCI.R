@@ -343,12 +343,7 @@ funcBisec <- function(f_1, f_2, a, b, maxIter = 1000, tol = 1/10^3){
     stop("Bisection cannot be executed! The function value f_1(b) must be
     greater than or equal to f_2(b)!") 
   }
-  if(f.a == 0){
-    return(a)
-  }
-  
-  check <- f_2(b) # for numerical stability 
-  if(f.b == 0 && check != 0){
+  if(f.b == 0){
     return(b)
   }
   
@@ -358,17 +353,8 @@ funcBisec <- function(f_1, f_2, a, b, maxIter = 1000, tol = 1/10^3){
     }
     xmid <- (a + b)/2
     ymid <- f(xmid)
-    if (ymid < 0) { # ymid < 0 means f_1(x_mid) < f_2(xmid)
+    if (ymid <= 0) { # ymid < 0 means f_1(x_mid) <= f_2(xmid)
       a <- xmid
-    }
-    else if(ymid == 0){ # i.e. f_1(x_mid) == f_2(x)
-      check <-  f_2(xmid) 
-      if(check != 0){ # for numerical stability
-        a <- xmid
-        break  
-      }else{
-        b <- xmid
-      }
     }else{ # i.e. f_1(x_mid) > f_2(x)
       b <- xmid
     }
