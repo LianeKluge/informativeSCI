@@ -38,9 +38,7 @@ see the Example sections of the documentation pages.
 
 W. Brannath, L. Kluge, M. Scharpenberg: Informative Simultaneous
 Confidence Intervals for Graphical Test Procedures. arXiv preprint
-arXiv:2402.13719 (2024). F. Bretz, W. Maurer, W. Brannath, M. Posch: A
-graphical approach to sequentially rejective multiple test procedures.
-Statistics in Medicine 28.4 (2009), pp. 586-604.
+arXiv:2402.13719 (2024).
 
 F. Bretz, W. Maurer, W. Brannath, M. Posch: A graphical approach to
 sequentially rejective multiple test procedures. Statistics in Medicine
